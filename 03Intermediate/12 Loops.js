@@ -23,10 +23,10 @@ const myState = [
 //   console.log(myState[i]);
 //   i++;
 // }
-let i = 20;
+// let i = 20;
 
-do{
-  console.log(i);
-  i++;
-}while(i<10)
+// do{
+//   console.log(i);
+//   i++;
+// }while(i<10);
 
