@@ -6,9 +6,21 @@ var User = function(firstName, courseCount){
     };
  };
 
+ User.prototype.getFirstName = function(){
+  console.log(`Your first name is : ${this.firstName}`);
+ }
 
  var sourav = new User("sourav", 5);
- console.log(sourav);
+ sourav.getCourseCount();
+
+ if(sourav.hasOwnProperty("firstName")){
+  sourav.getFirstName();
+ }
+//  console.log(sourav);
 
  var sam = new User("Sam", 4);
- console.log(sam);
+ sam.getCourseCount();
+ if(sam.hasOwnProperty("firstName")) {
+  sam.getFirstName();
+ }
+//  console.log(sam);
